@@ -17,6 +17,19 @@ html body{
 
 }
 
+.bg-bottom {
+  background-image: url("../assets/backgrounds/foodsBg.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 70px;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  font-family: "emily's candy";
+
+}
+
+
 .foodtop{
 width: 100%;
 border-color: yellow;
