@@ -1,6 +1,64 @@
-@media screen and (min-width: 480px) {
-    body {
-        background-color: black;
-        color: white;
-    }
+html body{
+  font-family: "emily's candy";
+
+
+}
+
+
+.logo {
+  background-image: url("../assets/backgrounds/landing.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 70px;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  font-family: "emily's candy";
+
+}
+
+.foodtop{
+width: 100%;
+border-color: yellow;
+border: 1px solid yellow;
+display: block;
+
+}
+
+.fastfood {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 350px;
+    float: right;
+}
+
+.fastfood  {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.fastfood img{
+  width: 340px;
+}
+
+
+.drinks {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    height: 200x;
+    float: left;
+}
+
+.drinks  {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.drinks img{
+  width: 150px;
+}
+
+.column{
+float: left;
+
 }
