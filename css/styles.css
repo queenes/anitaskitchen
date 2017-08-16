@@ -2,6 +2,7 @@ html body{
   font-family: "emily's candy";
 
 
+
 }
 
 
@@ -32,9 +33,9 @@ html body{
 
 .foodtop{
 width: 100%;
-border-color: yellow;
-border: 1px solid yellow;
+border: 1px;
 display: block;
+
 
 }
 
