@@ -1,10 +1,13 @@
 html body{
   font-family: "emily's candy";
-
-
-
 }
 
+.top{
+  display: block;
+  float: left;
+  background-size: cover;
+  height: 220px;
+}
 
 .logo {
   background-image: url("../assets/backgrounds/landing.jpg");
@@ -12,6 +15,7 @@ html body{
   background-size: cover;
   padding: 70px;
   font-size: 30px;
+  height: 500px;
   text-align: center;
   color: white;
   font-family: "emily's candy";
@@ -27,7 +31,6 @@ html body{
   text-align: center;
   color: white;
   font-family: "emily's candy";
-
 }
 
 
@@ -35,20 +38,67 @@ html body{
 width: 100%;
 border: 1px;
 display: block;
+margin-top: 20px;
+
+}
+/*
+.happy {
+	font-size: 2em;
+	text-align: center;
+	background: #E4E5E7;
+	font-family: 'aleobold';
+	padding: 44px;
+	margin: 0;
+	letter-spacing: 2px;
+}*/
+
+.party{
 
 
 }
 
+@@media (min-width:995px){
+  .col-md-3{
+    padding-left: 0;
+    padding-right: 0;
+   }
+  }
+
+.happy{
+
+}
+
+.lunch{
+
+
+}
+
+.breakfast{
+
+
+}
+
+.dinner{
+
+
+}
 .fastfood {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
     width: 350px;
-    float: right;
+    float: left;
+    margin-top: 70px;
+    margin-left: 250px;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+
 }
 
-.fastfood  {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+.fastfoodText  {
+  float: right;
+  margin-right: 60px;
+  margin-top: 70px;
+  text-align: center;
 }
 
 .fastfood img{
@@ -62,10 +112,21 @@ display: block;
     padding: 5px;
     height: 200x;
     float: left;
+    margin-top: 70px;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+
+
 }
 
-.drinks  {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+.drinksText  {
+  float: left;
+  margin-right: 40px;
+  margin-top: 70px;
+  text-align: left;
+padding-left: 150px;
+/*padding-right: */
+
+text-align: right;
 }
 
 .drinks img{
@@ -74,5 +135,28 @@ display: block;
 
 .column{
 float: left;
+
+}
+
+.divide {
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+    margin-right: -10px;
+}
+.center{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.subscribe{
+  background-image: url("../assets/backgrounds/subscribe.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 70px;
+  font-size: 10px;
+  height: 500px;
+  text-align: center;
+  color: white;
+  font-family: "emily's candy";
 
 }
