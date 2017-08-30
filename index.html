@@ -16,6 +16,8 @@
 </head>
 
 <body>
+  <div class="jumbotron">
+
   <div class="row">
     <div class="col-md-12">
       <div class="logo">
@@ -25,41 +27,43 @@
       </div>
     </div>
   </div>
-</div>
 
-   <div class="row">
-    <div class="col-md-12">
-      <div class="col-md-3">
+  <div class="row">
+    <div class="col-sm-14">
+
+      <div class="col-sm-4">
         <div class="row">
-          <div class="col-md-12 center">
-
-            <div class="happy">happy hour</div>
+          <div class="col-sm-12 happy">
+            <div class="center">Happy Hour</div>
           </div>
+        </div>
+
           <div class="row">
-
-            <div class="col-md-12 center">
-
-              <div class="party">party time</div>
+            <div class="col-sm-12 party">
+              <div class="center">Party Time</div>
             </div>
           </div>
         </div>
+
+      <div class="col-sm-4 topImages">
+        <img src="assets/foodtop/breakfast.jpg">
+        <div class="overlay"></div>
       </div>
 
-      <div class="col-md-3">
-        <img src="assets/foodtop/breakfast.jpg" class="top">
+      <div class="col-sm-4 topImages">
+        <img src="assets/foodtop/lunch.jpg">
+        <div class="overlay"></div>
+
       </div>
 
-      <div class="col-md-3">
-        <img src="assets/foodtop/lunch.jpg" class="top">
-      </div>
-
-      <div class="col-md-3">
-        <img src="assets/foodtop/dinner.jpg" class="top">
+      <div class="col-sm-4 topImages">
+        <img src="assets/foodtop/dinner.jpg">
+        <div class="overlay"></div>
       </div>
 
     </div>
-
   </div>
+  <div class="clearfix"></div>
 
 
   <div class="row">
@@ -121,6 +125,7 @@
     </div>
 
     <br><br><br><br>
+    <div class="clearfix"></div>
 
     <div class="container">
         <div class="row" padding="5px" border="solid">
@@ -134,20 +139,36 @@
 
     </div>
        <div class="subscribe">
-         <!-- <img src="assets/backgrounds/subscribe.jpg" alt="subscribe"> -->
          <p>Get our daily food items delivered to your email </p>
-         <form id="email">
-             <div class="form-group">
-                <input id="email" type="email">
-                <label for="email"></label>
-                <button type="submit" class="btn btn-primary">subscribe</button>
+         <div class="col-xs-9">
+             <form id="email">
+               <div class="col-md-7">
+                  <input class="form-control email" placeholder="your email" type="email">
+                </div>
+            <div class="col-md-3">
+                <button type="submit" class="subscribeButton" >Subscribe</button>
             </div>
-          </form>
+              </form>
          </div>
+       </div>
+</div>
 
-    <footer class="container-fluid text-center">
-      <p>Footer Text</p>
-    </footer>
+    <div class="footer">
+			<img src="images/footer.png" class="img-responsive" alt="" />
+			<h4>Thats What We Are</h4>
+				<ul>
+					<li><a href="#"><i class="fb"></i></a></li>
+					<li><a href="#"><i class="twt"></i></a></li>
+					<li><a href="#"><i class="paa"></i></a></li>
+						<div class="clearfix"></div>
+				</ul>
+				<p>2017 Anitas Kitchen Menu</p>
+
+	</div>
+	<a href="#" id="toTop" style="display: block;">
+    <span id="toTopHover" style="opacity: 0;"></span>
+     <span id="toTopHover" style="opacity: 0;"> </span></a>
+</div>
 </body>
 
 </html>

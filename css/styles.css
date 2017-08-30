@@ -2,13 +2,6 @@ html body{
   font-family: "emily's candy";
 }
 
-.top{
-  display: block;
-  float: left;
-  background-size: cover;
-  height: 220px;
-}
-
 .logo {
   background-image: url("../assets/backgrounds/landing.jpg");
   background-position: center;
@@ -22,6 +15,56 @@ html body{
 
 }
 
+
+.top{
+  display: block;
+  width: 100%;
+  /*float: left;*/
+  /*background-size: cover;*/
+  /*padding-left: 156px;*/
+  /*margin-top: 0;*/
+  height: 200px;
+  /*margin-right: 20;*/
+  /*margin: auto;*/
+
+}
+
+
+.topImages {
+  position: relative;
+  width: 20%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  opacity: 0.7;
+  height: 0;
+  transition: 0.5s ease;
+}
+
+.topImages:hover .overlay {
+  height: 100%;
+  width:300px;
+  margin: auto;
+
+  /*border: 3px solid #73AD21;*/
+  float: center;
+  /*border-style: solid;*/
+
+}
+
+ h4 {
+	font-size: 2.5em;
+	color: #fff;
+	font-family: 'aleolight';
+	font-style: italic;
+	padding: 2.8em 0em;
+	margin: 0;
+}
 .bg-bottom {
   background-image: url("../assets/backgrounds/foodsBg.jpg");
   background-position: center;
@@ -41,47 +84,31 @@ display: block;
 margin-top: 20px;
 
 }
-/*
-.happy {
-	font-size: 2em;
-	text-align: center;
-	background: #E4E5E7;
-	font-family: 'aleobold';
-	padding: 44px;
-	margin: 0;
-	letter-spacing: 2px;
-}*/
 
 .party{
+background-color: #F15A29;
+height: 100px;
+font-size: 20px;
+margin-right: 0;
 
 
 }
+.happy{
+  background-color: lightgrey;
+  height: 99px;
+  font-size: 20px;
+  margin-right: 0;
 
+}
+/*
 @@media (min-width:995px){
   .col-md-3{
     padding-left: 0;
     padding-right: 0;
    }
   }
+*/
 
-.happy{
-
-}
-
-.lunch{
-
-
-}
-
-.breakfast{
-
-
-}
-
-.dinner{
-
-
-}
 .fastfood {
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -148,15 +175,40 @@ float: left;
   margin-top: 50px;
 }
 
+.subscribeButton {
+	background-color:#F15A29;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Courier New;
+	font-size:19px;
+	font-weight:bold;
+	padding:3px 46px;
+	text-decoration:none;
+  border: 0;
+  float: right;
+}
+
+.subscribeButton:active {
+	position:relative;
+	top:1px;
+}
 .subscribe{
   background-image: url("../assets/backgrounds/subscribe.jpg");
   background-position: center;
   background-size: cover;
-  padding: 70px;
-  font-size: 10px;
-  height: 500px;
+  padding: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  height: 300px;
   text-align: center;
   color: white;
   font-family: "emily's candy";
+
+}
+.email{
+opacity: 0.5;
+
+}
+.footer{
 
 }
